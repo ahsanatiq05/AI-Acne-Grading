@@ -5,7 +5,7 @@ numpy
 pandas
 matplotlib
 tqdm
-opencv-python
+opencv-python-headless
 Pillow
 scikit-learn
 gradio
