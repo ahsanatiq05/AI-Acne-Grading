@@ -11,12 +11,10 @@ from huggingface_hub import hf_hub_download
 # ==============================
 # 📌 Load model from Hugging Face
 # ==============================
-HF_REPO_ID = "ahsanatiq98/AI-Acne-Grading"  # <-- Replace with your repo
-MODEL_FILE = "model.keras"                  # <-- Replace with your model file
 
+model_path = hf_hub_download(repo_id="username/model_repo", filename="model.keras")
+model = load_model(model_path, compile=False)
 
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "model.keras")
-model = load_model(MODEL_PATH, compile=False)
 
 CLASS_NAMES = ["Mild", "Medium", "Severe"]
 
