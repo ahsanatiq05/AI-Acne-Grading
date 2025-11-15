@@ -7,3 +7,4 @@ rich
 markdown-it-py
 mdurl
 pygments
+huggingface_hub
