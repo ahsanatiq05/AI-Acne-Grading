@@ -1,15 +1,8 @@
 numpy
 pandas
-matplotlib
-tqdm
-
-opencv-python-headless
-
 tensorflow
 keras
-
-streamlit
-
-scikit-learn
 Pillow
+opencv-python-headless
+streamlit
 huggingface_hub
