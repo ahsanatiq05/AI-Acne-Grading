@@ -1,20 +1,21 @@
 # Core Libraries
-numpy>=1.24.0
-pandas>=2.0.0
-matplotlib>=3.8.0
-tqdm>=4.65.0
+numpy
+pandas
+matplotlib
+tqdm
 
 # Image Processing
-opencv-python>=4.8.0
+opencv-python
 
 # Deep Learning
-tensorflow>=2.15.0
-keras>=2.15.0
+tensorflow
+keras
 
 # Web / App Interfaces
-streamlit>=1.35.0
-gradio>=4.0.0
+streamlit
+gradio
 
 # Optional Utilities
-scikit-learn>=1.3.0
-Pillow>=10.0.0
+scikit-learn
+Pillow
+huggingface_hub
