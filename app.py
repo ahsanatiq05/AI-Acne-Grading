@@ -12,8 +12,8 @@ from huggingface_hub import hf_hub_download
 # ==============================
 @st.cache_resource(show_spinner=True)
 def load_acne_model():
-    repo_id = "ahsanatiq98/AI-Acne-Grading"  # update if different
-    filename = "model.keras"                   # update if your file has a different name
+    repo_id = "ahsanatiq98/AI-Acne-Grading"  
+    filename = "model_tf220.keras"                 
     model_path = hf_hub_download(repo_id=repo_id, filename=filename)
     model = load_model(model_path, compile=False)
     return model
