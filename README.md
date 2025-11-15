@@ -38,6 +38,11 @@ A Gradio web interface is included for real-time inference.
 
 ## Dataset Summary
 
+## Data Preview
+
+![Example Image](Images/Image1.png)
+
+
 ### Original Dataset
 | Class  | Samples |
 |--------|---------|
@@ -74,6 +79,10 @@ The preprocessing function:
 - Replaces leftover dark pixels with white
 
 This ensures the model focuses only on facial regions and acne features.
+
+
+![Image 2](Images/image2.png)
+
 
 ---
 
@@ -122,6 +131,10 @@ Epochs: 46 (early stopping applied)
 | Medium | 0.94      | 0.89   | 0.91     |
 | Severe | 0.98      | 0.99   | 0.98     |
 | Overall| 0.94      | 0.94   | 0.94     |
+
+
+![Image 2](Images/Image3.png)
+![Image 4](Images/Image4.png)
 
 ---
 
