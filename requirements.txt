@@ -1,21 +1,15 @@
-# Core Libraries
 numpy
 pandas
 matplotlib
 tqdm
 
-# Image Processing
-opencv-python
+opencv-python-headless
 
-# Deep Learning
 tensorflow
 keras
 
-# Web / App Interfaces
 streamlit
-gradio
 
-# Optional Utilities
 scikit-learn
 Pillow
 huggingface_hub
